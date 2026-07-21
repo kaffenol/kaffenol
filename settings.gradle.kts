@@ -1,0 +1,25 @@
+rootProject.name = "kaffenol"
+
+include(
+    ":app:common",
+    ":app:desktop",
+    ":app:android",
+    ":core:editor-model",
+    ":core:document-engine",
+    ":core:command-system",
+    ":core:render-engine",
+    ":core:image-codecs",
+    ":core:image-operations",
+    ":core:persistence",
+    ":features:canvas",
+    ":features:layers",
+    ":features:tools",
+    ":features:colour",
+    ":features:export",
+    ":platform:services",
+    ":platform:desktop",
+    ":platform:android",
+    ":plugin-api",
+    ":test-support:fakes",
+    ":test-support:image-assertions",
+)
